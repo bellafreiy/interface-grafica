@@ -8,6 +8,7 @@ import quizgame.repositorios.RepositoryPergunta;
 public class Menu {
 
     public static void main(String[] args) {
+        
         RepositoryPergunta perguntaRepository = RepositoryPergunta.getInstance();
         GerenciadorPergunta perguntaManager = new GerenciadorPergunta(perguntaRepository);
 
